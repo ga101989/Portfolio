@@ -96,11 +96,11 @@ body {
     color: #8e1bcc8a;
   }
 
-  a:link {
+  section a:link {
     color: #8e1bcc8a;
   }
 
-  a {
+  section a {
     outline: none;
     text-decoration: none;
   }
