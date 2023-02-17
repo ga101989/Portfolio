@@ -95,6 +95,15 @@ body {
     text-decoration: none;
     color: #8e1bcc8a;
   }
+
+  a:link {
+    color: #8e1bcc8a;
+  }
+
+  a {
+    outline: none;
+    text-decoration: none;
+  }
   
   footer {
     background-color: #1a06258a;
