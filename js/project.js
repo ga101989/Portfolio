@@ -72,3 +72,23 @@ function textproject3(){
         btn3.value = "+";
     }
 }
+
+
+// Sélectionnez la barre de défilement
+var scrollbar = document.querySelector('::-webkit-scrollbar');
+
+// Appliquez les styles CSS personnalisés à la barre de défilement
+scrollbar.style.width = '10px';
+scrollbar.style.backgroundColor = '#f1f1f1';
+
+// Sélectionnez la poignée de la barre de défilement
+var thumb = document.querySelector('::-webkit-scrollbar-thumb');
+
+// Appliquez les styles CSS personnalisés à la poignée de la barre de défilement
+thumb.style.backgroundColor = '#888';
+thumb.style.borderRadius = '5px';
+
+// Ajoutez un événement "hover" pour changer la couleur de la poignée lorsqu'elle est survolée
+thumb.addEventListener('hover', function() {
+    thumb.style.backgroundColor = '#555';
+});
