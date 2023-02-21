@@ -92,3 +92,8 @@ thumb.style.borderRadius = '5px';
 thumb.addEventListener('hover', function() {
     thumb.style.backgroundColor = '#555';
 });
+
+
+window.onblur = function() {
+    document.title = "Titre modifié";
+}
