@@ -13,11 +13,11 @@ function textproject1(){
     let btn2 = document.querySelector("div.project input[value]");
     let btn3 = document.querySelector('input[id="btn"]');
     
-    if(btn3.value == "+"){
+    if(btn3.value == "En savoir plus"){
         btn3.value = "En savoir moins";
     }
     else{
-        btn3.value = "+";
+        btn3.value = "En savoir plus";
     }
     
 }
@@ -42,11 +42,11 @@ function textproject2(){
     
     let btn3 = document.querySelector('input[id="btn2"]');
     
-    if(btn3.value == "+"){
+    if(btn3.value == "En savoir plus"){
         btn3.value = "En savoir moins";
     }
     else{
-        btn3.value = "+";
+        btn3.value = "En savoir plus";
     }
 }
 
@@ -65,11 +65,11 @@ function textproject3(){
     
     let btn3 = document.querySelector('input[id="btn3"]');
     
-    if(btn3.value == "+"){
+    if(btn3.value == "En savoir plus"){
         btn3.value = "En savoir moins";
     }
     else{
-        btn3.value = "+";
+        btn3.value = "En savoir plus";
     }
 }
 
