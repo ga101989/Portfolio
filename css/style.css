@@ -176,7 +176,7 @@ a:hover,input:hover,button:hover,textarea:hover{
   }
   
   .project img {
-    max-width: 350px;
+    max-width: 70%;
     margin-right: 1em;
   }
 
