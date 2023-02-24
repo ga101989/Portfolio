@@ -59,7 +59,7 @@ footer {
   left: 50%;
  border-top : 32px solid transparent;
  border-bottom : 33px solid transparent;
- border-left : 57px solid #5d72b0;
+ border-left : 57px solid #e5e8f1;
  animation: shape2-move 20s linear infinite;
 }
 
@@ -145,9 +145,13 @@ nav {
     margin-top: 10px;
 }
 
-a:hover,input:hover,button:hover,textarea:hover{
+input:hover,button:hover,textarea:hover{
   box-shadow: 0 0 5px 2px rgba(255, 255, 255, 1);
-  /*box-shadow: inset 2px 2px 2px rgba(255, 255, 255, 0.6), inset -2px -2px 2px #2a063d8a;*/
+}
+
+a:hover{
+  border-radius: 15px;
+  box-shadow: 0 0 5px 2px rgba(255, 255, 255, 1);
 }
 
   .styled {
@@ -263,6 +267,6 @@ a:hover,input:hover,button:hover,textarea:hover{
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background-color: #2222a7;
-  -webkit-box-shadow:inset 1px 0 1px 0 white;;
+  background-color: white;
+  -webkit-box-shadow:inset 1px 0 1px 0 #2222a7;
 }
