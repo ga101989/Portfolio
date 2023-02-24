@@ -39,11 +39,12 @@ function textproject(index){
     
 }
 
-
+/** 
 window.onblur = function() {
-    document.title = "👇ｃｏｍｅ ｂａｃｋ ｈｅｒｅ👇";
+    document.title = "ｃｏｍｅ ｂａｃｋ ｈｅｒｅ";
 }
 
 window.onfocus = function() {
     document.title = "Mon Portfolio";
 }
+*/
