@@ -149,7 +149,7 @@ input:hover,button:hover,textarea:hover{
   box-shadow: 0 0 5px 2px rgba(255, 255, 255, 1);
 }
 
-a:hover{
+.lien:hover{
   border-radius: 15px;
   box-shadow: 0 0 5px 2px rgba(255, 255, 255, 1);
 }
