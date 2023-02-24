@@ -1,3 +1,7 @@
+*{
+  color: white;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -123,11 +127,13 @@ nav {
   }
   
   section {
-    background-color: #fff;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
     padding: 1em;
     margin: 1em 0;
     text-align: center;
     border-radius: 15px;
+    border: 5px solid #ffffff;
   }
 
   .project:hover,.contacter:hover,section:hover{
@@ -169,6 +175,7 @@ a:hover,input:hover,button:hover,textarea:hover{
     margin: 1em 0;
     padding: 1em;
     background-color: #7171f7;
+    border: 2px solid #ffffff;
     color: #fff;
     align-content: center;
     justify-items: center;
@@ -182,11 +189,13 @@ a:hover,input:hover,button:hover,textarea:hover{
 
   #contact{
     text-decoration: none;
-    color: #7171f7;;
+    /**color: #7171f7;;*/
+    color: white;
   }
 
   section a:link {
-    color: #7171f7;;
+    color: white;
+    /*color: #7171f7;*/
   }
 
   section a {
@@ -205,7 +214,7 @@ a:hover,input:hover,button:hover,textarea:hover{
     padding: 1em;
     background-color: #7171f7;
     border-radius: 15px;
-    
+    border: 2px solid #ffffff;
   }
 
   .espace{
@@ -214,7 +223,8 @@ a:hover,input:hover,button:hover,textarea:hover{
   }
 
   h2{
-    color: #7171f7;;
+    color: white;
+    /*color: #7171f7;*/
   }
 
   #mecontacter{
