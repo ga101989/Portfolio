@@ -244,6 +244,7 @@ input:hover,button:hover,textarea:hover{
   html {
     -webkit-text-size-adjust: none; /* for iOS Safari */
     text-size-adjust: none; /* for other mobile browsers */
+    scroll-behavior: smooth;
   }
 
   @media (prefers-reduced-motion: no-preference) {
@@ -252,17 +253,20 @@ input:hover,button:hover,textarea:hover{
     }
   }
 
+/**
 ::-webkit-scrollbar {
   height: 100%;
   width: 11.5px;
 }
 
+
 ::-webkit-scrollbar-track {
   background-color: transparent;
+  backdrop-filter: blur(20px);
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #7171f7;;
+  background-color: #090923;;
   border-radius: 5px;
 }
 
@@ -270,3 +274,38 @@ input:hover,button:hover,textarea:hover{
   background-color: white;
   -webkit-box-shadow:inset 1px 0 1px 0 #2222a7;
 }
+*/
+
+.container{ 
+  width: 40rem;
+  height: 26rem;
+  background:transparent;
+  display: flex;
+  overflow-x: auto; /* Ajout de la scrollbar horizontale */
+  scroll-snap-type: x mandatory;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+}
+
+
+.container div{
+
+min-width: 40rem;
+display: flex;
+justify-content: center;
+align-items: center; font-size: 10rem;
+color: white;
+scroll-snap-align: center;
+}
+
+div img{
+  width: 100%;
+  display: cover;
+}
+
+.box{
+  background-color: transparent;
+}
+

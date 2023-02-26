@@ -28,7 +28,8 @@ function textproject(index){
     }
     
     let btn2 = document.querySelector("div.project input[value]");
-    let btn3 = document.querySelector('input[id="btn"]');
+    let btn3 = document.getElementById("btn"+index);
+    /*let btn3 = document.querySelector("input[id='btn"+index+']");*/
     
     if(btn3.value == "En savoir plus"){
         btn3.value = "En savoir moins";
@@ -48,3 +49,19 @@ window.onfocus = function() {
     document.title = "Mon Portfolio";
 }
 */
+
+
+// Récupération des éléments HTML nécessaires
+const container = document.querySelector('.container');
+const leftArrow = document.querySelector('.arrow.left');
+const rightArrow = document.querySelector('.arrow.right');
+
+// Ajout d'un écouteur d'événement sur le clic de la flèche de droite
+rightArrow.addEventListener('click', () => {
+  container.scrollLeft += container.offsetWidth;
+});
+
+// Ajout d'un écouteur d'événement sur le clic de la flèche de gauche
+leftArrow.addEventListener('click', () => {
+  container.scrollLeft -= container.offsetWidth;
+});
